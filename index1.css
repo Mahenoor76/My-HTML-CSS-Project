@@ -1,0 +1,113 @@
+*{
+      margin:0px;
+      padding:0px;
+      background-color: black;
+}
+/* utility classes */
+.img-res{
+      max-width:100%;
+}
+
+.hero_img{
+      height:100vh;
+      background-image: url(images/food_all.webp);
+      background-size: cover;
+      /* opacity:0.8; */
+    
+      position:relative;
+
+     
+}
+.hero_wrapper{
+      color:white;
+      position:absolute;
+      top:50%;
+      left:50%;
+     
+      transform: translate(-50%,-50%);
+
+}
+.hero_wrapper h1{
+      font-size: 2.4rem;
+      text-align: center;
+      font-weight: 80px;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,8);
+}
+.hero_wrapper span{
+      margin-left:5rem;
+      display: inline-block;
+      margin-bottom: .5rem;
+      font-weight: 80px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,8);
+}
+.hero_wrapper p{
+      font-weight:30px;
+      font-size:1.2rem;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,8);
+}
+.form_code .post_code{
+      display:block;
+      width:80%;
+      margin-left:auto;
+      margin-right:auto;
+      border-radius: 2rem;
+      padding: 0.6rem;
+      border:none;
+      outline:none;
+      margin-bottom: 15px;
+
+}
+.form_code button{
+      width:40%;
+      display:inline-block;
+      margin-left:auto;
+      margin-right:auto;
+     text-align: center;
+      background-color: #00bab0;
+      color: white;
+      margin-left:220px;
+      padding: 0.6rem;
+      border:none;
+      border-radius: .3rem;
+
+}
+
+/* Product Section */
+
+.pro{
+      /* height: 1000px;
+      width:1000%; */
+      width:80%;
+      margin-left:auto;
+      margin-right:auto;
+    
+
+}
+
+
+.product_list_item{
+      color:white;
+      float:left;
+      width: 31%;
+      margin-left:1rem;
+      margin-top:3rem;
+
+}
+/* to go first iten in the down images */
+.product_list_item: :first-of-type{
+      margin-left:0px;
+
+}
+
+@media  screen and (max-width:700px) {
+      .product_list_item{
+            width:100%;
+            float:none;
+      }
+}
+
+
+
+
